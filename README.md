@@ -5,7 +5,7 @@ This project extracts tumor genotypes from clinical PDF reports and stores them 
 ## Setup
 
 1. Install dependencies:
-    pip install -r requirements.txt
+    pip3 install -r requirements.txt
 
 2. Configure your PostgreSQL database in `db_config.py`.
 
