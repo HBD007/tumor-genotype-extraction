@@ -8,6 +8,8 @@ def get_connection():
         password="postgres",
         host="localhost",
         port=5432,
+        schema: dbt_tumor,
+        threads: 8,
     )
 
 def init_table():
