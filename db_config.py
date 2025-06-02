@@ -3,9 +3,9 @@ from psycopg2.extras import execute_values
 
 def get_connection():
     return psycopg2.connect(
-        dbname="your_db",
-        user="your_user",
-        password="your_password",
+        dbname="postgres",
+        user="postgres",
+        password="postgres",
         host="localhost",
         port=5432,
     )
